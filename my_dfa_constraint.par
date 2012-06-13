@@ -1,0 +1,106 @@
+STARTENV DFA
+
+STARTRULE    component_clearance_audit
+    PARAM    SELECTOR_TYPE_     "Component"
+    PARAM    SELECTOR_NUMBER_     2
+    PARAM    PARAMETER_TYPES_     "S" , "S" , "S" , "S" , "S" , "S" , "S" , "S" , "N" , "S"
+    PARAM    PARAMETER_WIDGETS_     "P" , "P" , "P" , "P" , "E" , "P"
+    PARAM    PARAMETER_POPUPS_     "POPUP_EDGE" , "POPUP_EDGE" , "POPUP_SPACING_LAYER" , "POPUP_UNITS" , "POPUP_SUBCLASS"
+    PARAM    CONSTRAINTS     "Default"
+    PARAM    SELECT_BY1     "Any"
+    PARAM    VALUE1     "*"
+    PARAM    SELECT_BY2     "Any"
+    PARAM    VALUE2     "*"
+    PARAM    EDGE1     "Any"
+    PARAM    EDGE2     "Any"
+    PARAM    LAYER     "BOTH"
+    PARAM    UNITS     "Millimeter"
+    PARAM    SPACING     0.25
+    PARAM    SUBCLASS     "PLACE_BOUND"
+ENDRULE
+
+STARTRULE    component_orientation_layer_audit
+    PARAM    SELECTOR_TYPE_     "Component"
+    PARAM    SELECTOR_NUMBER_     1
+    PARAM    PARAMETER_TYPES_     "S" , "S" , "S" , "NL"
+    PARAM    PARAMETER_WIDGETS_     "P" , "E"
+    PARAM    PARAMETER_POPUPS_     "POPUP_LAYER"
+    PARAM    CONSTRAINTS     "Default"
+    PARAM    SELECT_BY1     "Any"
+    PARAM    VALUE1     "*"
+    PARAM    LAYER     "Either"
+    PARAM    ORIENTATION     "0 90 180 270"
+ENDRULE
+
+STARTRULE    lead_span_audit
+    PARAM    SELECTOR_TYPE_     "Component"
+    PARAM    SELECTOR_NUMBER_     1
+    PARAM    PARAMETER_TYPES_     "S" , "S" , "S" , "S" , "NL" , "NPL"
+    PARAM    PARAMETER_WIDGETS_     "P" , "P" , "E" , "E"
+    PARAM    PARAMETER_POPUPS_     "POPUP_METHOD" , "POPUP_UNITS"
+    PARAM    LABELS_     "Method" , "Units" , "Span Value List     (if By List)" , "Insertion Grid        (if IPC/MIL)"
+    PARAM    CONSTRAINTS     "Default"
+    PARAM    SELECT_BY1     "Any"
+    PARAM    VALUE1     "*"
+    PARAM    METHOD     "IPC-CM-770A"
+    PARAM    UNITS     "Mils"
+    PARAM    SPAN_VALUE_LIST     "25 50 75 100"
+    PARAM    IPC_MIL_INSERTION_GRID     "25:25"
+ENDRULE
+
+STARTRULE    hole_audit
+    PARAM    SELECTOR_TYPE_     "Hole"
+    PARAM    SELECTOR_NUMBER_     1
+    PARAM    PARAMETER_TYPES_     "S" , "S" , "N" , "S" , "N" , "N" , "N" , "N" , "NL" , "NL"
+    PARAM    PARAMETER_WIDGETS_     "E" , "P" , "E" , "E" , "E" , "E" , "E" , "E"
+    PARAM    PARAMETER_POPUPS_     "POPUP_UNITS"
+    PARAM    PARAMETER_NONEDITABLE_     1
+    PARAM    LABELS_     "Max No of Drill Bits" , "Units" , "Min Via Hole Size" , "Max Via Hole Size" , "Min Plated Annular Ring Size" , "Min Non Plated Annular Ring Size" , "Plated Hole Sizes" , "Non Plated Hole Sizes"
+    PARAM    CONSTRAINTS     "Default"
+    PARAM    SELECT_BY1     "Any"
+    PARAM    VALUE1     "*"
+    PARAM    MAX_DRILL_BITS     10
+    PARAM    UNITS     "Millimeter"
+    PARAM    MIN_VIA_HOLE_SIZE     0.3
+    PARAM    MAX_VIA_HOLE_SIZE     1.0
+    PARAM    MIN_PLATED_ANNULAR_RING_SIZE     0.25
+    PARAM    MIN_NON_PLATED_ANNULAR_RING_SIZE     0.25
+    PARAM    PLATED_SIZE_LIST     "0.5 0.8 1 1.2 3.2"
+    PARAM    NON_PLATED_SIZE_LIST     "3.2"
+ENDRULE
+
+STARTRULE    test_point_audit
+    PARAM    SELECTOR_TYPE_     "Hole"
+    PARAM    SELECTOR_NUMBER_     0
+    PARAM    PARAMETER_TYPES_     "S" , "S" , "S" , "S" , "S" , "S" , "S" , "S" , "S" , "N" , "N" , "N" , "N" , "N" , "N"
+    PARAM    PARAMETER_WIDGETS_     "P" , "P" , "P" , "P" , "P" , "P" , "P" , "E" , "E" , "E" , "E" , "E" , "E" , "E" , "E"
+    PARAM    PARAMETER_POPUPS_     "POPUP_PINTYPE" , "POPUP_PADSTACK" , "POPUP_LAYER" , "POPUP_BOOLEAN" , "POPUP_BOOLEAN" , "POPUP_BOOLEAN" , "POPUP_UNITS"
+    PARAM    CONSTRAINTS     "Default"
+    PARAM    PIN_TYPE_SELECTOR     "Any Pnt"
+    PARAM    PAD_STACK_TYPE_SELECTOR     "Either"
+    PARAM    LAYER     "TOP"
+    PARAM    FIX_TEST_POINTS     "No"
+    PARAM    ALLOW_UNDER_COMPONENT     "No"
+    PARAM    ALLOW_TEST_DIRECTLY_ON_PIN     "Yes"
+    PARAM    UNITS     "Mils"
+    PARAM    TEST_PAD     "SMD20_17"
+    PARAM    TEST_VIA     "VIA"
+    PARAM    TEST_GRID_X     0
+    PARAM    TEST_GRID_Y     0
+    PARAM    MIN_SPACING     0
+    PARAM    MIN_PAD_SIZE     0
+    PARAM    MIN_DISPLACEMENT     0
+    PARAM    MAX_DISPLACEMENT     0
+ENDRULE
+
+STARTRULE    orphan_via_audit
+    PARAM    SELECTOR_TYPE_     "None"
+    PARAM    SELECTOR_NUMBER_     0
+ENDRULE
+
+STARTRULE    hanging_trace_audit
+    PARAM    SELECTOR_TYPE_     "None"
+    PARAM    SELECTOR_NUMBER_     0
+ENDRULE
+
+ENDENV

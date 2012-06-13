@@ -1,0 +1,17 @@
+// 
+// Allegro DFA Constraints table 
+// Last modified on Wednesday, April 11, 2012
+// 
+DFA_TABLE_NAME=my_dfa.dfa
+READONLY=NO
+UNITS=MILS
+// 
+// 
+TAB=Top
+	R1206
+R1206	0.25
+ENDTAB
+TAB=Bottom
+	R1206
+R1206	0.25
+ENDTAB

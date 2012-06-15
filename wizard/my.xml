@@ -2,6 +2,7 @@
   <Internet_preferences check_for_software_update="True">
   </Internet_preferences>
   <Plb_Files>
+    <plb_file name="C:\workspace\lib\wizard\wizard.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\PCBM-STARTER.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\BGA7351B.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\SMN7351B.plb09" />
@@ -19,7 +20,6 @@
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\THC7251.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\THP7251.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\Wizard.plb09" />
-    <plb_file name="C:\workspace\lib\wizard\wizard.plb09" />
   </Plb_Files>
   <Global_Preferences units="0" include_height_in_name="True" default_settings="False" min_land_land_space="0.2" min_land_tab_space="0.2" min_silkscreen_pad_space="0.25" min_soldermask_Web="0.1" gangmask_shape="Block" min_trim_standoff="0.15" global_environment="-1" user_environment_suffix="USR" global_fab_level="-1" user_fab_level_suffix="USR" warn_on_unsaved_calc_exit="True">
     <attributes>

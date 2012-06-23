@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <CFGManager>
 
-  <!--CIS DBC configuration file 16.3 release. Created on (date/time) Sun Jun 17 19:33:16 2012
+  <!--CIS DBC configuration file 16.3 release. Created on (date/time) Sat Jun 23 18:32:06 2012
 -->
 
   <CISVersion>
@@ -155,8 +155,8 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>PCB Footprint</FieldName>
-      <DBFieldName>Footprint</DBFieldName>
+      <FieldName>PCB_Footprint</FieldName>
+      <DBFieldName>PCB_Footprint</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
@@ -169,7 +169,7 @@
       <Key>0</Key>
       <Ignore>0</Ignore>
       <Visibility>0</Visibility>
-      <PropertyType>4</PropertyType>
+      <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="6">
@@ -377,8 +377,8 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>PCB Footprint</FieldName>
-      <DBFieldName>Footprint</DBFieldName>
+      <FieldName>PCB_Footprint</FieldName>
+      <DBFieldName>PCB_Footprint</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
@@ -390,8 +390,8 @@
       <Protected>0</Protected>
       <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>2</Visibility>
-      <PropertyType>4</PropertyType>
+      <Visibility>0</Visibility>
+      <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="6">
@@ -599,8 +599,8 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>PCB Footprint</FieldName>
-      <DBFieldName>Footprint</DBFieldName>
+      <FieldName>PCB_Footprint</FieldName>
+      <DBFieldName>PCB_Footprint</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
@@ -612,8 +612,8 @@
       <Protected>0</Protected>
       <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>2</Visibility>
-      <PropertyType>4</PropertyType>
+      <Visibility>0</Visibility>
+      <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="6">
@@ -629,7 +629,7 @@
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -785,8 +785,8 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="4">
-      <FieldName>PCB Footprint</FieldName>
-      <DBFieldName>Footprint</DBFieldName>
+      <FieldName>PCB_Footprint</FieldName>
+      <DBFieldName>PCB_Footprint</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
@@ -798,8 +798,8 @@
       <Protected>0</Protected>
       <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>2</Visibility>
-      <PropertyType>4</PropertyType>
+      <Visibility>0</Visibility>
+      <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
@@ -815,7 +815,7 @@
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>

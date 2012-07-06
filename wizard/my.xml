@@ -1,5 +1,5 @@
 <PCB_Matrix_LP_User_Profile compatability="2009" default_dat="E:\ORCAD_sch\lib\wizard\my.xml">
-  <Internet_preferences check_for_software_update="True">
+  <Internet_preferences check_for_software_update="False">
   </Internet_preferences>
   <Plb_Files>
     <plb_file name="C:\workspace\lib\wizard\wizard.plb09" />

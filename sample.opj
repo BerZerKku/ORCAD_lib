@@ -18,5 +18,5 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 415"))
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 415"))
       (Tab 0))))

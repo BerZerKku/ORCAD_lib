@@ -1,8 +1,8 @@
-<PCB_Matrix_LP_User_Profile compatability="2009" default_dat="C:\workspace\lib\wizard\my.xml">
+<PCB_Matrix_LP_User_Profile compatability="2009" default_dat="E:\work\OrCAD\lib\wizard\my.xml">
   <Internet_preferences check_for_software_update="True">
   </Internet_preferences>
   <Plb_Files>
-    <plb_file name="C:\workspace\lib\wizard\wizard.plb09" />
+    <plb_file name="E:\work\OrCAD\lib\wizard\wizard.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\PCBM-STARTER.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\BGA7351B.plb09" />
     <plb_file name="C:\MentorGraphics\10.4LPW\SDD_HOME\LPWizard\CAD Data\SMN7351B.plb09" />

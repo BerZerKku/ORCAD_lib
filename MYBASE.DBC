@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <CFGManager>
 
-  <!--CIS DBC configuration file 16.3 release. Created on (date/time) Tue Jul 10 16:25:15 2012
+  <!--CIS DBC configuration file 16.3 release. Created on (date/time) Sun Aug 12 19:27:27 2012
 -->
 
   <CISVersion>
@@ -16,7 +16,7 @@
 
   <TransferBlankProperties>0</TransferBlankProperties>
 
-  <AssignTempPartNoAutomatically>0</AssignTempPartNoAutomatically>
+  <AssignTempPartNoAutomatically>1</AssignTempPartNoAutomatically>
 
   <TempPartNumberTableName>TMPPRTS</TempPartNumberTableName>
 
@@ -42,7 +42,56 @@
 
   <PartRefernce>1</PartRefernce>
 
-  <RefDesAssoc/>
+  <RefDesAssoc>
+    <PartTypes indx="0">
+      <sPartTypes>Carbon Film</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="1">
+      <sPartTypes>TTL Logic</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="2">
+      <sPartTypes>Misc</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="3">
+      <sPartTypes>Microprocessor</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="4">
+      <sPartTypes>Interface Data Transmission</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="5">
+      <sPartTypes>CMOS Logic</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="6">
+      <sPartTypes>Electrolytic</sPartTypes>
+    </PartTypes>
+    <PartTypes indx="7">
+      <sPartTypes>Ceramic</sPartTypes>
+    </PartTypes>
+    <RefDesPrefixes indx="0">
+      <sRefDesPrefixes>R</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="1">
+      <sRefDesPrefixes>U</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="2">
+      <sRefDesPrefixes>U</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="3">
+      <sRefDesPrefixes>U</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="4">
+      <sRefDesPrefixes>U</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="5">
+      <sRefDesPrefixes>U</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="6">
+      <sRefDesPrefixes>C</sRefDesPrefixes>
+    </RefDesPrefixes>
+    <RefDesPrefixes indx="7">
+      <sRefDesPrefixes>C</sRefDesPrefixes>
+    </RefDesPrefixes>
+  </RefDesAssoc>
 
   <SelectedICASupList indx="0">
     <ICASuplierList>Allied</ICASuplierList>

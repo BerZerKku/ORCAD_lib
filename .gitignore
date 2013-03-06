@@ -1,5 +1,6 @@
 
 /wizard/arch
+/tmp
 *.jrl*
 *.log*
 *.OBK*

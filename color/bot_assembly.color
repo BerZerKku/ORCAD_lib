@@ -1,0 +1,11 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/NCROUTE_PATH"
+color -vis "BOARD GEOMETRY/SILKSCREEN_BOTTOM"
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "PACKAGE GEOMETRY/SOLDERMASK_TOP"
+color -vis "PACKAGE GEOMETRY/ASSEMBLY_BOTTOM"
+color -vis "PIN/BOTTOM"
+color -vis "REF DES/ASSEMBLY_BOTTOM"

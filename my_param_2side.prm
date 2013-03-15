@@ -29,7 +29,7 @@
     <cset_apply_rip_etch>0</cset_apply_rip_etch>
     <rotate>0.000</rotate>
     <active_class>ETCH</active_class>
-    <active_subclass>TOP</active_subclass>
+    <active_subclass>BOTTOM</active_subclass>
     <alternate_subclass>BOTTOM</alternate_subclass>
     <active_text_size>3</active_text_size>
     <geomextract_uptodate>0</geomextract_uptodate>
@@ -83,7 +83,7 @@
     <nonetch>
       <number_x_grids>1</number_x_grids>
       <number_y_grids>1</number_y_grids>
-      <x_grids>0.500 MM</x_grids>
+      <x_grids>0.200 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
@@ -103,7 +103,7 @@
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
-      <y_grids>0.500 MM</y_grids>
+      <y_grids>0.200 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
@@ -123,15 +123,15 @@
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
-      <x_major_grid>0.500 MM</x_major_grid>
-      <y_major_grid>0.500 MM</y_major_grid>
+      <x_major_grid>0.200 MM</x_major_grid>
+      <y_major_grid>0.200 MM</y_major_grid>
       <x_origin>0.000 MM</x_origin>
       <y_origin>0.000 MM</y_origin>
     </nonetch>
     <etch>
       <number_x_grids>1</number_x_grids>
       <number_y_grids>1</number_y_grids>
-      <x_grids>0.500 MM</x_grids>
+      <x_grids>0.200 MM</x_grids>
       <x_grids>0.250 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
@@ -151,7 +151,7 @@
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
-      <y_grids>0.500 MM</y_grids>
+      <y_grids>0.200 MM</y_grids>
       <y_grids>0.250 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
@@ -171,15 +171,15 @@
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
-      <x_major_grid>0.500 MM</x_major_grid>
-      <y_major_grid>0.500 MM</y_major_grid>
+      <x_major_grid>0.200 MM</x_major_grid>
+      <y_major_grid>0.200 MM</y_major_grid>
       <x_origin>0.000 MM</x_origin>
       <y_origin>0.000 MM</y_origin>
     </etch>
     <etch>
       <number_x_grids>1</number_x_grids>
       <number_y_grids>1</number_y_grids>
-      <x_grids>0.500 MM</x_grids>
+      <x_grids>0.200 MM</x_grids>
       <x_grids>0.250 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
@@ -199,7 +199,7 @@
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
-      <y_grids>0.500 MM</y_grids>
+      <y_grids>0.200 MM</y_grids>
       <y_grids>0.250 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
@@ -219,8 +219,8 @@
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
-      <x_major_grid>0.500 MM</x_major_grid>
-      <y_major_grid>0.500 MM</y_major_grid>
+      <x_major_grid>0.200 MM</x_major_grid>
+      <y_major_grid>0.200 MM</y_major_grid>
       <x_origin>0.000 MM</x_origin>
       <y_origin>0.000 MM</y_origin>
     </etch>
@@ -562,8 +562,8 @@
       <_SOLDERMASK_BOTTOM>262168</_SOLDERMASK_BOTTOM>
       <_SOLDERMASK_TOP>262168</_SOLDERMASK_TOP>
       <_ASSEMBLY_DETAIL>262168</_ASSEMBLY_DETAIL>
-      <_SILKSCREEN_BOTTOM>262203</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>327762</_SILKSCREEN_TOP>
+      <_SILKSCREEN_BOTTOM>327739</_SILKSCREEN_BOTTOM>
+      <_SILKSCREEN_TOP>262226</_SILKSCREEN_TOP>
       <_SWITCH_AREA_BOTTOM>262168</_SWITCH_AREA_BOTTOM>
       <_SWITCH_AREA_TOP>262168</_SWITCH_AREA_TOP>
       <_BOTH_ROOMS>262168</_BOTH_ROOMS>
@@ -583,7 +583,7 @@
       <_DISPLAY_BOTTOM>262168</_DISPLAY_BOTTOM>
       <_DISPLAY_TOP>262168</_DISPLAY_TOP>
       <_SILKSCREEN_BOTTOM>262168</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>262226</_SILKSCREEN_TOP>
+      <_SILKSCREEN_TOP>327762</_SILKSCREEN_TOP>
       <_ASSEMBLY_BOTTOM>262168</_ASSEMBLY_BOTTOM>
       <_ASSEMBLY_TOP>262168</_ASSEMBLY_TOP>
     </COMPONENT_VALUE>
@@ -599,7 +599,7 @@
     </DEVICE_TYPE>
     <DRAWING_FORMAT>
       <_CONSTRUCTION>262168</_CONSTRUCTION>
-      <_DRAWING_ORIGIN>327704</_DRAWING_ORIGIN>
+      <_DRAWING_ORIGIN>262168</_DRAWING_ORIGIN>
       <_REVISION_DATA>262168</_REVISION_DATA>
       <_REVISION_BLOCK>262168</_REVISION_BLOCK>
       <_TITLE_DATA>262168</_TITLE_DATA>
@@ -609,22 +609,22 @@
     <DRC_ERROR_CLASS>
       <_TOP>327681</_TOP>
       <_BOTTOM>327681</_BOTTOM>
-      <_PASTEMASK_BOTTOM>327681</_PASTEMASK_BOTTOM>
-      <_PASTEMASK_TOP>327681</_PASTEMASK_TOP>
+      <_PASTEMASK_BOTTOM>262145</_PASTEMASK_BOTTOM>
+      <_PASTEMASK_TOP>262145</_PASTEMASK_TOP>
       <_WIRE>262145</_WIRE>
-      <_SOLDERMASK_BOTTOM>327681</_SOLDERMASK_BOTTOM>
-      <_SOLDERMASK_TOP>327681</_SOLDERMASK_TOP>
-      <_PACKAGE_BOTTOM>327681</_PACKAGE_BOTTOM>
-      <_PACKAGE_TOP>327681</_PACKAGE_TOP>
+      <_SOLDERMASK_BOTTOM>262145</_SOLDERMASK_BOTTOM>
+      <_SOLDERMASK_TOP>262145</_SOLDERMASK_TOP>
+      <_PACKAGE_BOTTOM>262145</_PACKAGE_BOTTOM>
+      <_PACKAGE_TOP>262145</_PACKAGE_TOP>
       <_ALL>327681</_ALL>
     </DRC_ERROR_CLASS>
     <ETCH>
       <_TOP>327737</_TOP>
-      <_BOTTOM>327697</_BOTTOM>
+      <_BOTTOM>327703</_BOTTOM>
       <_WIRE>262161</_WIRE>
     </ETCH>
     <MANUFACTURING>
-      <_NCLEGEND-1-2>262168</_NCLEGEND-1-2>
+      <_NCLEGEND-1-2>327704</_NCLEGEND-1-2>
       <_NCLEGEND-BL-1-2>262168</_NCLEGEND-BL-1-2>
       <_SHAPE_PROBLEMS>262145</_SHAPE_PROBLEMS>
       <_DETAILS>262168</_DETAILS>
@@ -661,12 +661,12 @@
       <_DISPLAY_BOTTOM>262168</_DISPLAY_BOTTOM>
       <_DISPLAY_TOP>262226</_DISPLAY_TOP>
       <_SOLDERMASK_BOTTOM>262168</_SOLDERMASK_BOTTOM>
-      <_SOLDERMASK_TOP>262181</_SOLDERMASK_TOP>
+      <_SOLDERMASK_TOP>327717</_SOLDERMASK_TOP>
       <_BODY_CENTER>262168</_BODY_CENTER>
-      <_SILKSCREEN_BOTTOM>262225</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>327762</_SILKSCREEN_TOP>
+      <_SILKSCREEN_BOTTOM>327761</_SILKSCREEN_BOTTOM>
+      <_SILKSCREEN_TOP>262226</_SILKSCREEN_TOP>
       <_PAD_STACK_NAME>262225</_PAD_STACK_NAME>
-      <_PIN_NUMBER>327761</_PIN_NUMBER>
+      <_PIN_NUMBER>262225</_PIN_NUMBER>
       <_PLACE_BOUND_BOTTOM>262168</_PLACE_BOUND_BOTTOM>
       <_PLACE_BOUND_TOP>262193</_PLACE_BOUND_TOP>
       <_ASSEMBLY_BOTTOM>262176</_ASSEMBLY_BOTTOM>
@@ -682,7 +682,7 @@
     </PACKAGE_KEEPOUT>
     <PIN>
       <_TOP>327737</_TOP>
-      <_BOTTOM>327697</_BOTTOM>
+      <_BOTTOM>327703</_BOTTOM>
       <_FILMMASKBOTTOM>262168</_FILMMASKBOTTOM>
       <_FILMMASKTOP>262168</_FILMMASKTOP>
       <_PASTEMASK_BOTTOM>262168</_PASTEMASK_BOTTOM>
@@ -695,13 +695,13 @@
       <_DISPLAY_EMBEDDED>27</_DISPLAY_EMBEDDED>
       <_DISPLAY_BOTTOM>262171</_DISPLAY_BOTTOM>
       <_DISPLAY_TOP>262171</_DISPLAY_TOP>
-      <_SILKSCREEN_BOTTOM>262225</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>327762</_SILKSCREEN_TOP>
+      <_SILKSCREEN_BOTTOM>327761</_SILKSCREEN_BOTTOM>
+      <_SILKSCREEN_TOP>262226</_SILKSCREEN_TOP>
       <_ASSEMBLY_BOTTOM>262176</_ASSEMBLY_BOTTOM>
       <_ASSEMBLY_TOP>262208</_ASSEMBLY_TOP>
     </REF_DES>
     <ROUTE_KEEPIN>
-      <_ALL>327734</_ALL>
+      <_ALL>262198</_ALL>
     </ROUTE_KEEPIN>
     <ROUTE_KEEPOUT>
       <_TOP>262179</_TOP>
@@ -730,7 +730,7 @@
     </USER_PART_NUMBER>
     <VIA_CLASS>
       <_TOP>327737</_TOP>
-      <_BOTTOM>327697</_BOTTOM>
+      <_BOTTOM>327703</_BOTTOM>
       <_FILMMASKBOTTOM>262168</_FILMMASKBOTTOM>
       <_FILMMASKTOP>262168</_FILMMASKTOP>
       <_PASTEMASK_BOTTOM>262168</_PASTEMASK_BOTTOM>
@@ -762,14 +762,14 @@
       <_ALL>262192</_ALL>
     </CONSTRAINT_REGION>
     <PLAN>
-      <_TOP>262201</_TOP>
-      <_BOTTOM>262161</_BOTTOM>
+      <_TOP>327737</_TOP>
+      <_BOTTOM>327697</_BOTTOM>
       <_DENSITY_VERY_LOW>262168</_DENSITY_VERY_LOW>
       <_DENSITY_LOW>262168</_DENSITY_LOW>
       <_DENSITY_MEDIUM>262168</_DENSITY_MEDIUM>
       <_DENSITY_HIGH>262168</_DENSITY_HIGH>
       <_DENSITY_VERY_HIGH>262168</_DENSITY_VERY_HIGH>
-      <_ALL>262168</_ALL>
+      <_ALL>327704</_ALL>
     </PLAN>
     <CAVITY>
       <_TOP>262201</_TOP>
@@ -3112,18 +3112,20 @@
     <prior>0</prior>
     <prior>0</prior>
     <prior>0</prior>
+    <mixedPriority>23</mixedPriority>
+    <mixedPriority>82</mixedPriority>
+    <mixedPriority>24</mixedPriority>
     <mixedPriority>57</mixedPriority>
+    <mixedPriority>45</mixedPriority>
+    <mixedPriority>81</mixedPriority>
+    <mixedPriority>64</mixedPriority>
+    <mixedPriority>27</mixedPriority>
     <mixedPriority>17</mixedPriority>
     <mixedPriority>37</mixedPriority>
     <mixedPriority>63</mixedPriority>
     <mixedPriority>47</mixedPriority>
-    <mixedPriority>24</mixedPriority>
-    <mixedPriority>64</mixedPriority>
-    <mixedPriority>45</mixedPriority>
-    <mixedPriority>82</mixedPriority>
     <mixedPriority>44</mixedPriority>
     <mixedPriority>32</mixedPriority>
-    <mixedPriority>81</mixedPriority>
     <mixedPriority>49</mixedPriority>
     <mixedPriority>48</mixedPriority>
     <mixedPriority>35</mixedPriority>
@@ -3132,7 +3134,6 @@
     <mixedPriority>54</mixedPriority>
     <mixedPriority>83</mixedPriority>
     <mixedPriority>16</mixedPriority>
-    <mixedPriority>27</mixedPriority>
     <mixedPriority>66</mixedPriority>
     <mixedPriority>67</mixedPriority>
     <mixedPriority>30</mixedPriority>
@@ -3157,7 +3158,6 @@
     <mixedPriority>20</mixedPriority>
     <mixedPriority>21</mixedPriority>
     <mixedPriority>22</mixedPriority>
-    <mixedPriority>23</mixedPriority>
     <mixedPriority>25</mixedPriority>
     <mixedPriority>26</mixedPriority>
     <mixedPriority>28</mixedPriority>
@@ -3557,7 +3557,7 @@
 
   <text_size_table>
     <header>
-      <current_num_inuse>19</current_num_inuse>
+      <current_num_inuse>20</current_num_inuse>
     </header>
     <array>
       <text_slant>0.000</text_slant>
@@ -3727,6 +3727,15 @@
       <text_width>0.406 MM</text_width>
       <character_space>0.152 MM</character_space>
       <line_space>0.787 MM</line_space>
+      <text_font>0.000 MM</text_font>
+      <photoplot_width>0.000 MM</photoplot_width>
+    </array>
+    <array>
+      <text_slant>0.000</text_slant>
+      <text_height>0.787 MM</text_height>
+      <text_width>0.584 MM</text_width>
+      <character_space>0.203 MM</character_space>
+      <line_space>0.991 MM</line_space>
       <text_font>0.000 MM</text_font>
       <photoplot_width>0.000 MM</photoplot_width>
     </array>
@@ -4924,30 +4933,30 @@
       <therm_conn_type>17</therm_conn_type>
       <min_therm_conns>2</min_therm_conns>
       <max_therm_conns>4</max_therm_conns>
-      <clearance>1</clearance>
-      <oversize_val>0.000 MM</oversize_val>
+      <clearance>0</clearance>
+      <oversize_val>0.100 MM</oversize_val>
     </pin_control>
     <smd_control>
       <therm_conn_type>17</therm_conn_type>
       <min_therm_conns>2</min_therm_conns>
       <max_therm_conns>4</max_therm_conns>
-      <clearance>1</clearance>
+      <clearance>0</clearance>
       <oversize_val>0.000 MM</oversize_val>
     </smd_control>
     <via_control>
-      <therm_conn_type>16</therm_conn_type>
+      <therm_conn_type>18</therm_conn_type>
       <min_therm_conns>2</min_therm_conns>
       <max_therm_conns>4</max_therm_conns>
-      <clearance>1</clearance>
+      <clearance>0</clearance>
       <oversize_val>0.000 MM</oversize_val>
     </via_control>
-    <oversize_therm_width>0.000 MM</oversize_therm_width>
+    <oversize_therm_width>0.100 MM</oversize_therm_width>
     <min_area>1.000 MM</min_area>
     <line_oversize>0.000 MM</line_oversize>
     <text_oversize>0.000 MM</text_oversize>
     <shape_oversize>0.000 MM</shape_oversize>
     <inline_pin_voids>0.000 MM</inline_pin_voids>
-    <smooth_min_gap>1.000 MM</smooth_min_gap>
+    <smooth_min_gap>0.200 MM</smooth_min_gap>
     <artwork_format>3</artwork_format>
     <x_hatch_border_width>0.127 MM</x_hatch_border_width>
     <x_hatch_1>
@@ -4960,13 +4969,13 @@
       <increment>0.127 MM</increment>
       <angle>90.000</angle>
     </x_hatch_2>
-    <xhatch_origin>-66.700,-26.710</xhatch_origin>
+    <xhatch_origin>27.280,-27.726</xhatch_origin>
   </dynfill_parm_type>
 
   <drf_parm_type>
     <rev>9</rev>
     <dim_mask>69037</dim_mask>
-    <dd_border>933.299,973.289</dd_border>
+    <dd_border>1027.279,972.273</dd_border>
     <balloon_size_l>12.000 MM</balloon_size_l>
     <dl_arrowlen_l>4.000 MM</dl_arrowlen_l>
     <dl_arrowwid_l>1.250 MM</dl_arrowwid_l>
@@ -5037,7 +5046,7 @@
     <rev>55</rev>
     <ff_size>59</ff_size>
     <apin_txt_offset>-1.270,0.000</apin_txt_offset>
-    <datum_pt>918.999,992.002</datum_pt>
+    <datum_pt>1012.979,990.986</datum_pt>
     <apin_angle_increment>0.000</apin_angle_increment>
     <cp_angle_increment>0.000</cp_angle_increment>
     <apin_rotation>0.000</apin_rotation>
@@ -5049,7 +5058,7 @@
     <de_rotation>0.000</de_rotation>
     <crfan_vs_rotation>0.000</crfan_vs_rotation>
     <acon_angle_increment>0.000</acon_angle_increment>
-    <chg_width>0.500 MM</chg_width>
+    <chg_width>0.400 MM</chg_width>
     <trim_first_seg>0.250 MM</trim_first_seg>
     <trim_second_seg>0.000 MM</trim_second_seg>
     <fillet_radius>0.250 MM</fillet_radius>
@@ -5071,12 +5080,12 @@
     <acon_corner_size>2147483.647 MM</acon_corner_size>
     <acon_corner_size>2147483.647 MM</acon_corner_size>
     <acon_corner_size>2147483.647 MM</acon_corner_size>
+    <acon_line_width>0.800 MM</acon_line_width>
     <acon_line_width>0.400 MM</acon_line_width>
-    <acon_line_width>2147483.647 MM</acon_line_width>
-    <acon_line_width>2147483.647 MM</acon_line_width>
-    <acon_line_width>2147483.647 MM</acon_line_width>
-    <acon_line_width>2147483.647 MM</acon_line_width>
-    <acon_line_width>2147483.647 MM</acon_line_width>
+    <acon_line_width>1.000 MM</acon_line_width>
+    <acon_line_width>0.500 MM</acon_line_width>
+    <acon_line_width>0.250 MM</acon_line_width>
+    <acon_line_width>0.200 MM</acon_line_width>
     <acon_line_width>2147483.647 MM</acon_line_width>
     <acon_line_width>2147483.647 MM</acon_line_width>
     <acon_line_width>2147483.647 MM</acon_line_width>
@@ -5119,6 +5128,7 @@
     <sld_min_corner_size>2147483.647 MM</sld_min_corner_size>
     <sld_min_corner_size>2147483.647 MM</sld_min_corner_size>
     <sld_min_corner_size>2147483.647 MM</sld_min_corner_size>
+    <dtun_corner_size>-0.100 MM</dtun_corner_size>
     <dtun_corner_size>2147483.647 MM</dtun_corner_size>
     <dtun_corner_size>2147483.647 MM</dtun_corner_size>
     <dtun_corner_size>2147483.647 MM</dtun_corner_size>
@@ -5126,9 +5136,8 @@
     <dtun_corner_size>2147483.647 MM</dtun_corner_size>
     <dtun_corner_size>2147483.647 MM</dtun_corner_size>
     <dtun_corner_size>2147483.647 MM</dtun_corner_size>
-    <dtun_corner_size>2147483.647 MM</dtun_corner_size>
-    <dtun_gap>2147483.647 MM</dtun_gap>
-    <dtun_gap>2147483.647 MM</dtun_gap>
+    <dtun_gap>-100.100 MM</dtun_gap>
+    <dtun_gap>-0.300 MM</dtun_gap>
     <dtun_gap>2147483.647 MM</dtun_gap>
     <dtun_gap>2147483.647 MM</dtun_gap>
     <dtun_gap>2147483.647 MM</dtun_gap>
@@ -5232,12 +5241,12 @@
     <apin_x_direction>0</apin_x_direction>
     <apin_y_direction>1</apin_y_direction>
     <ar_refdes_inc>1</ar_refdes_inc>
-    <chg_text_size>20</chg_text_size>
+    <chg_text_size>3</chg_text_size>
     <chg_subclass>253</chg_subclass>
     <chg_class_filter>9</chg_class_filter>
     <del_ripup>63</del_ripup>
     <mv_ripup>0</mv_ripup>
-    <mv_stretch>0</mv_stretch>
+    <mv_stretch>1</mv_stretch>
     <spin_ripup>0</spin_ripup>
     <spin_stretch>0</spin_stretch>
     <cp_type>0</cp_type>
@@ -5249,7 +5258,7 @@
     <apin_num_rows>1</apin_num_rows>
     <apin_num_cols>1</apin_num_cols>
     <cp_rotate_pt>0</cp_rotate_pt>
-    <mv_rotate_pt>3</mv_rotate_pt>
+    <mv_rotate_pt>0</mv_rotate_pt>
     <spin_rotate_pt>0</spin_rotate_pt>
     <mv_rotate_type>1</mv_rotate_type>
     <spin_rotate_type>1</spin_rotate_type>
@@ -5278,7 +5287,7 @@
     <line_font_id>0</line_font_id>
     <moddef_reuseid>0</moddef_reuseid>
     <sld_bubble>4</sld_bubble>
-    <sld_smooth>1</sld_smooth>
+    <sld_smooth>2</sld_smooth>
     <acon_bubble>0</acon_bubble>
     <acon_smooth>1</acon_smooth>
     <acon_corner_mode>0</acon_corner_mode>
@@ -5308,41 +5317,41 @@
     <crfan_via_pad_name/>
     <apin_pin_number>1</apin_pin_number>
     <cp_symbol_pin_num>1</cp_symbol_pin_num>
-    <mv_symbol_pin_num>1</mv_symbol_pin_num>
+    <mv_symbol_pin_num>A1</mv_symbol_pin_num>
     <spn_symbol_pin_num>1</spn_symbol_pin_num>
     <ff_buf>
-      <line_seg_for_lines>true</line_seg_for_lines>
-      <arc_seg_for_lines>true</arc_seg_for_lines>
-      <line_seg_for_clines>true</line_seg_for_clines>
-      <arc_seg_for_clines>true</arc_seg_for_clines>
-      <line>true</line>
-      <cline>true</cline>
-      <frect>true</frect>
-      <rect>true</rect>
+      <line_seg_for_lines>false</line_seg_for_lines>
+      <arc_seg_for_lines>false</arc_seg_for_lines>
+      <line_seg_for_clines>false</line_seg_for_clines>
+      <arc_seg_for_clines>false</arc_seg_for_clines>
+      <line>false</line>
+      <cline>false</cline>
+      <frect>false</frect>
+      <rect>false</rect>
       <text>true</text>
       <text_line>true</text_line>
       <pin>true</pin>
-      <via>true</via>
-      <symbol>true</symbol>
-      <shape>true</shape>
-      <voids>true</voids>
+      <via>false</via>
+      <symbol>false</symbol>
+      <shape>false</shape>
+      <voids>false</voids>
       <void_segments>true</void_segments>
       <shape_segments>true</shape_segments>
       <class_subclass>false</class_subclass>
       <invisible>false</invisible>
-      <bondwire>true</bondwire>
-      <figure>true</figure>
-      <drc_error>true</drc_error>
-      <ratsnest>true</ratsnest>
-      <net>true</net>
+      <bondwire>false</bondwire>
+      <figure>false</figure>
+      <drc_error>false</drc_error>
+      <ratsnest>false</ratsnest>
+      <net>false</net>
       <component>true</component>
       <function>true</function>
-      <group>true</group>
+      <group>false</group>
       <group_members>false</group_members>
-      <bondpad>true</bondpad>
+      <bondpad>false</bondpad>
       <boundary_shape>false</boundary_shape>
       <drawing>true</drawing>
-      <rat_t>true</rat_t>
+      <rat_t>false</rat_t>
     </ff_buf>
     <ff_buf>
       <line_seg_for_lines>true</line_seg_for_lines>
@@ -5714,7 +5723,7 @@
       <group>false</group>
       <group_members>false</group_members>
       <bondpad>false</bondpad>
-      <boundary_shape>false</boundary_shape>
+      <boundary_shape>true</boundary_shape>
       <drawing>true</drawing>
       <rat_t>false</rat_t>
     </ff_buf>
@@ -7087,9 +7096,9 @@
       <cline>true</cline>
       <frect>true</frect>
       <rect>true</rect>
-      <text>false</text>
+      <text>true</text>
       <text_line>true</text_line>
-      <pin>false</pin>
+      <pin>true</pin>
       <via>true</via>
       <symbol>true</symbol>
       <shape>true</shape>
@@ -7100,17 +7109,17 @@
       <invisible>false</invisible>
       <bondwire>false</bondwire>
       <figure>true</figure>
-      <drc_error>false</drc_error>
-      <ratsnest>false</ratsnest>
+      <drc_error>true</drc_error>
+      <ratsnest>true</ratsnest>
       <net>true</net>
       <component>true</component>
       <function>true</function>
-      <group>false</group>
+      <group>true</group>
       <group_members>false</group_members>
       <bondpad>false</bondpad>
       <boundary_shape>false</boundary_shape>
       <drawing>true</drawing>
-      <rat_t>false</rat_t>
+      <rat_t>true</rat_t>
     </ff_buf>
     <ff_buf>
       <line_seg_for_lines>true</line_seg_for_lines>

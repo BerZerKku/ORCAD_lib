@@ -1,0 +1,46 @@
+**********************************
+
+* Model created by               *
+
+*   Uni.Dipl.-Ing. Arpad Buermen *
+
+*   arpad.burmen@ieee.org        *
+
+* Copyright:                     *
+
+*   Thomatronik GmbH, Germany    *
+
+*   info@thomatronik.de          *
+
+**********************************
+
+*   SPICE3
+
+*              K1 K2 Common A
+
+subckt bat54a 1  2  3
+
+ddio1 3 1 legd
+
+dgr1 3 1 grd
+
+ddio2 3 2 legd
+
+dgr2 3 2 grd
+
+model legd d is = 1.47873E-007 n = 1.47352 rs = 1.73521
+
++ eg = 0.46214 xti = 4 tnom = 27
+
++ cjo = 1.22993E-011 vj = 0.700135 m = 0.517047 fc = 0.5
+
++ tt = 7.21348E-009 bv = 33 ibv = 0.1 af = 1 kf = 0
+
+model grd d is = 1.9709E-009 n = 0.75561 rs = 4.63881
+
++ eg = 0.592266 xti = 4 tnom = 27
+
+ends
+
+
+

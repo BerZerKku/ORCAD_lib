@@ -6,7 +6,9 @@
       (Type "Schematic Library"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (NoModify))
+    (NoModify)
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (GlobalState
@@ -17,5 +19,17 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 458"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1437 44 525")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "6172 2616")
+        (Zoom "878"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\TRANSISTOR.OLB")
+      (Package "MOSFET_GDS")))
+  (MPSSessionName "Shcheblykin"))

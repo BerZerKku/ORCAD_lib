@@ -1,0 +1,70 @@
+# Allegro Script
+# File: D:\!!!Sort\!tmp\DIOMELF5024N\CMPLX-1_44-2_84-0_25.psx
+version 16.6
+
+new
+newdrawfillin "CMPLX-1_44-2_84-0_25.dra" "Shape Symbol"
+setwindow pcb
+
+# Drawing Parameters
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit units Millimeter
+FORM prmedit accuracy 4
+FORM prmedit size other
+FORM prmedit x -5
+FORM prmedit y -5
+FORM prmedit width 10
+FORM prmedit height 10
+FORM prmedit x -5
+FORM prmedit y -5
+FORM prmedit done
+setwindow pcb
+
+# Graphics
+shape add
+setwindow Form.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass
+FORM mini dyns_fill_type Static solid
+FORM mini dyns_grid None
+FORM mini dyns_lock_mode Line
+setwindow pcb
+pick 0 -1.42
+pick -0.47 -1.42
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick -0.72 -1.17
+pick -0.6468 -1.3468
+pick -0.72 1.17
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick -0.47 1.42
+pick -0.6468 1.3468
+pick 0.47 1.42
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 0.72 1.17
+pick 0.6468 1.3468
+pick 0.72 -1.17
+setwindow Form.mini
+FORM mini dyns_lock_mode Arc
+setwindow pcb
+pick 0.47 -1.42
+pick 0.6468 -1.3468
+pick 0 -1.42
+done
+
+save_as
+fillin "cmplx-1_44-2_84-0_25.dra"
+create symbol
+fillin "cmplx-1_44-2_84-0_25.ssm"
+fillin yes
+exit
+fillin yes
+
+# end

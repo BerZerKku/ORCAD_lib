@@ -18,7 +18,7 @@
     <auto_45>false</auto_45>
     <stacked_via>false</stacked_via>
     <gridmode>true</gridmode>
-    <line_lock>1</line_lock>
+    <line_lock>2</line_lock>
     <mirror>0</mirror>
     <justification>1</justification>
     <active_line_font_id>0</active_line_font_id>
@@ -28,10 +28,10 @@
     <ratsnest_pin2pin>0</ratsnest_pin2pin>
     <cset_apply_rip_etch>0</cset_apply_rip_etch>
     <rotate>0.000</rotate>
-    <active_class>MANUFACTURING</active_class>
-    <active_subclass>AUTOSILK_TOP</active_subclass>
-    <alternate_subclass>NCLEGEND-BL-1-2</alternate_subclass>
-    <active_text_size>3</active_text_size>
+    <active_class>ETCH</active_class>
+    <active_subclass>TOP</active_subclass>
+    <alternate_subclass>WIRE</alternate_subclass>
+    <active_text_size>6</active_text_size>
     <geomextract_uptodate>0</geomextract_uptodate>
     <ratsnest_nojog>0</ratsnest_nojog>
     <dflt_sym_height>3.810 MM</dflt_sym_height>
@@ -42,7 +42,7 @@
     <rplan_drc_color>57</rplan_drc_color>
     <ratsnest_color_top>59</ratsnest_color_top>
     <ratsnest_color_btm>59</ratsnest_color_btm>
-    <drill_hole_color>2</drill_hole_color>
+    <drill_hole_color>81</drill_hole_color>
     <waived_drc_color>17</waived_drc_color>
     <hilite_color>82</hilite_color>
     <grid_color>82</grid_color>
@@ -83,7 +83,7 @@
     <nonetch>
       <number_x_grids>1</number_x_grids>
       <number_y_grids>1</number_y_grids>
-      <x_grids>0.635 MM</x_grids>
+      <x_grids>2.540 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
@@ -103,7 +103,7 @@
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
-      <y_grids>0.635 MM</y_grids>
+      <y_grids>2.540 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
@@ -123,15 +123,15 @@
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
-      <x_major_grid>0.635 MM</x_major_grid>
-      <y_major_grid>0.635 MM</y_major_grid>
+      <x_major_grid>2.540 MM</x_major_grid>
+      <y_major_grid>2.540 MM</y_major_grid>
       <x_origin>0.000 MM</x_origin>
       <y_origin>0.000 MM</y_origin>
     </nonetch>
     <etch>
       <number_x_grids>1</number_x_grids>
       <number_y_grids>1</number_y_grids>
-      <x_grids>0.635 MM</x_grids>
+      <x_grids>2.540 MM</x_grids>
       <x_grids>0.250 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
@@ -151,7 +151,7 @@
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
-      <y_grids>0.635 MM</y_grids>
+      <y_grids>2.540 MM</y_grids>
       <y_grids>0.250 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
@@ -171,15 +171,15 @@
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
-      <x_major_grid>0.635 MM</x_major_grid>
-      <y_major_grid>0.635 MM</y_major_grid>
+      <x_major_grid>2.540 MM</x_major_grid>
+      <y_major_grid>2.540 MM</y_major_grid>
       <x_origin>0.000 MM</x_origin>
       <y_origin>0.000 MM</y_origin>
     </etch>
     <etch>
       <number_x_grids>1</number_x_grids>
       <number_y_grids>1</number_y_grids>
-      <x_grids>0.635 MM</x_grids>
+      <x_grids>2.540 MM</x_grids>
       <x_grids>0.250 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
@@ -199,7 +199,7 @@
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
       <x_grids>0.000 MM</x_grids>
-      <y_grids>0.635 MM</y_grids>
+      <y_grids>2.540 MM</y_grids>
       <y_grids>0.250 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
@@ -219,8 +219,8 @@
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
       <y_grids>0.000 MM</y_grids>
-      <x_major_grid>0.635 MM</x_major_grid>
-      <y_major_grid>0.635 MM</y_major_grid>
+      <x_major_grid>2.540 MM</x_major_grid>
+      <y_major_grid>2.540 MM</y_major_grid>
       <x_origin>0.000 MM</x_origin>
       <y_origin>0.000 MM</y_origin>
     </etch>
@@ -3119,25 +3119,25 @@
     <prior>0</prior>
     <prior>0</prior>
     <prior>0</prior>
-    <mixedPriority>47</mixedPriority>
-    <mixedPriority>24</mixedPriority>
-    <mixedPriority>64</mixedPriority>
-    <mixedPriority>23</mixedPriority>
     <mixedPriority>82</mixedPriority>
-    <mixedPriority>57</mixedPriority>
     <mixedPriority>45</mixedPriority>
+    <mixedPriority>57</mixedPriority>
+    <mixedPriority>64</mixedPriority>
     <mixedPriority>81</mixedPriority>
+    <mixedPriority>24</mixedPriority>
+    <mixedPriority>37</mixedPriority>
+    <mixedPriority>1</mixedPriority>
+    <mixedPriority>23</mixedPriority>
     <mixedPriority>27</mixedPriority>
     <mixedPriority>17</mixedPriority>
-    <mixedPriority>37</mixedPriority>
     <mixedPriority>63</mixedPriority>
+    <mixedPriority>47</mixedPriority>
     <mixedPriority>44</mixedPriority>
     <mixedPriority>32</mixedPriority>
     <mixedPriority>49</mixedPriority>
     <mixedPriority>48</mixedPriority>
     <mixedPriority>35</mixedPriority>
     <mixedPriority>59</mixedPriority>
-    <mixedPriority>1</mixedPriority>
     <mixedPriority>54</mixedPriority>
     <mixedPriority>83</mixedPriority>
     <mixedPriority>16</mixedPriority>
@@ -3562,6 +3562,25 @@
     </highltCol>
   </ColorParmType>
 
+  <netCustomColors>
+    <_GNDE>
+      <netColor>0</netColor>
+      <netCustomState>true</netCustomState>
+      <netHighlightState>true</netHighlightState>
+      <netClineColor>0</netClineColor>
+      <netClineCustomState>false</netClineCustomState>
+      <netShapeColor>0</netShapeColor>
+      <netShapeCustomState>false</netShapeCustomState>
+      <netPinColor>0</netPinColor>
+      <netPinCustomState>false</netPinCustomState>
+      <netPinHighlightState>false</netPinHighlightState>
+      <netViaColor>0</netViaColor>
+      <netViaCustomState>false</netViaCustomState>
+      <netRatsnestColor>0</netRatsnestColor>
+      <netRatsnestCustomState>false</netRatsnestCustomState>
+    </_GNDE>
+  </netCustomColors>
+
   <text_size_table>
     <header>
       <current_num_inuse>20</current_num_inuse>
@@ -3773,7 +3792,7 @@
     <rev>55</rev>
     <ff_size>59</ff_size>
     <apin_txt_offset>-1.270,0.000</apin_txt_offset>
-    <datum_pt>1012.979,990.986</datum_pt>
+    <datum_pt>956.849,800.401</datum_pt>
     <apin_angle_increment>0.000</apin_angle_increment>
     <cp_angle_increment>0.000</cp_angle_increment>
     <apin_rotation>0.000</apin_rotation>
@@ -3945,7 +3964,7 @@
     <apin_col_spacing>1270</apin_col_spacing>
     <apin_row_spacing>1270</apin_row_spacing>
     <lock_tangent>1</lock_tangent>
-    <fnd_name_type>7</fnd_name_type>
+    <fnd_name_type>3</fnd_name_type>
     <acon_flags>31</acon_flags>
     <sld_flags>50331815</sld_flags>
     <vtx_flags>524299</vtx_flags>
@@ -4044,7 +4063,7 @@
     <crfan_via_pad_name/>
     <apin_pin_number>1</apin_pin_number>
     <cp_symbol_pin_num>1</cp_symbol_pin_num>
-    <mv_symbol_pin_num>A1</mv_symbol_pin_num>
+    <mv_symbol_pin_num>HOLE2</mv_symbol_pin_num>
     <spn_symbol_pin_num>1</spn_symbol_pin_num>
     <ff_buf>
       <line_seg_for_lines>true</line_seg_for_lines>
@@ -4659,35 +4678,35 @@
       <rat_t>true</rat_t>
     </ff_buf>
     <ff_buf>
-      <line_seg_for_lines>true</line_seg_for_lines>
-      <arc_seg_for_lines>true</arc_seg_for_lines>
-      <line_seg_for_clines>true</line_seg_for_clines>
-      <arc_seg_for_clines>true</arc_seg_for_clines>
+      <line_seg_for_lines>false</line_seg_for_lines>
+      <arc_seg_for_lines>false</arc_seg_for_lines>
+      <line_seg_for_clines>false</line_seg_for_clines>
+      <arc_seg_for_clines>false</arc_seg_for_clines>
       <line>true</line>
       <cline>true</cline>
-      <frect>true</frect>
-      <rect>true</rect>
+      <frect>false</frect>
+      <rect>false</rect>
       <text>true</text>
-      <text_line>true</text_line>
+      <text_line>false</text_line>
       <pin>true</pin>
-      <via>true</via>
+      <via>false</via>
       <symbol>true</symbol>
-      <shape>true</shape>
+      <shape>false</shape>
       <voids>true</voids>
-      <void_segments>true</void_segments>
-      <shape_segments>true</shape_segments>
+      <void_segments>false</void_segments>
+      <shape_segments>false</shape_segments>
       <class_subclass>false</class_subclass>
       <invisible>false</invisible>
       <bondwire>false</bondwire>
-      <figure>true</figure>
-      <drc_error>true</drc_error>
+      <figure>false</figure>
+      <drc_error>false</drc_error>
       <ratsnest>true</ratsnest>
       <net>true</net>
       <component>true</component>
       <function>true</function>
       <group>false</group>
       <group_members>false</group_members>
-      <bondpad>true</bondpad>
+      <bondpad>false</bondpad>
       <boundary_shape>false</boundary_shape>
       <drawing>true</drawing>
       <rat_t>true</rat_t>
@@ -6086,7 +6105,7 @@
   <drf_parm_type>
     <rev>9</rev>
     <dim_mask>69037</dim_mask>
-    <dd_border>1027.279,972.273</dd_border>
+    <dd_border>1140.259,1010.073</dd_border>
     <balloon_size_l>12.000 MM</balloon_size_l>
     <dl_arrowlen_l>4.000 MM</dl_arrowlen_l>
     <dl_arrowwid_l>1.250 MM</dl_arrowwid_l>
@@ -6170,7 +6189,7 @@
       <increment>0.127 MM</increment>
       <angle>90.000</angle>
     </x_hatch_2>
-    <xhatch_origin>27.280,-27.726</xhatch_origin>
+    <xhatch_origin>140.260,10.074</xhatch_origin>
   </dynfill_parm_type>
 
   <probe_parm_type>

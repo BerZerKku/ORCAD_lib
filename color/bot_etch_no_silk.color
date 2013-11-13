@@ -1,0 +1,20 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/NCROUTE_PATH"
+color -vis "BOARD GEOMETRY/SOLDERMASK_BOTTOM"
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "DRC ERROR CLASS/BOTTOM"
+color -vis "DRC ERROR CLASS/PASTEMASK_BOTTOM"
+color -vis "DRC ERROR CLASS/SOLDERMASK_BOTTOM"
+color -vis "DRC ERROR CLASS/PACKAGE_BOTTOM"
+color -vis "DRC ERROR CLASS/ALL"
+color -vis "ETCH/BOTTOM"
+color -vis "MANUFACTURING/SHAPE PROBLEMS"
+color -vis "PACKAGE GEOMETRY/PIN_NUMBER"
+color -vis "PIN/BOTTOM"
+color -vis "ROUTE KEEPIN/ALL"
+color -vis "ROUTE KEEPOUT/BOTTOM"
+color -vis "ROUTE KEEPOUT/ALL"
+color -vis "VIA CLASS/BOTTOM"

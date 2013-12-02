@@ -1,0 +1,24 @@
+#This is the Layer Conversion File used for
+#importing DXF data into Allegro/APD.
+
+#CLASS!            SUBCLASS!                           DXF_LAYER!
+
+BOARD GEOMETRY!
+                   NCROUTE_PATH!                       BOARD!
+                   ASSEMBLY_TOP!                       TOP!
+                   ASSEMBLY_BOTTOM!                    BOTTOM!
+                   OUTLINE!                            BOARD!
+
+COMPONENT VALUE!
+                   ASSEMBLY_BOTTOM!                    BOTTOM!
+                   ASSEMBLY_TOP!                       TOP!
+
+PACKAGE GEOMETRY!
+                   ASSEMBLY_BOTTOM!                    BOTTOM!
+                   ASSEMBLY_TOP!                       TOP!
+
+REF DES!
+                   ASSEMBLY_BOTTOM!                    BOTTOM!
+                   ASSEMBLY_TOP!                       TOP!
+
+#END

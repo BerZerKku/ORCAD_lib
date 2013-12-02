@@ -1,0 +1,14 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/NCROUTE_PATH"
+color -vis "BOARD GEOMETRY/ASSEMBLY_TOP"
+color -vis "BOARD GEOMETRY/ASSEMBLY_BOTTOM"
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "COMPONENT VALUE/ASSEMBLY_BOTTOM"
+color -vis "COMPONENT VALUE/ASSEMBLY_TOP"
+color -vis "PACKAGE GEOMETRY/ASSEMBLY_BOTTOM"
+color -vis "PACKAGE GEOMETRY/ASSEMBLY_TOP"
+color -vis "REF DES/ASSEMBLY_BOTTOM"
+color -vis "REF DES/ASSEMBLY_TOP"

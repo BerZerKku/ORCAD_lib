@@ -13,10 +13,11 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\ic.olb")
-      (Select "Design Resources" ".\ic.olb" "IR2161"))
+      (Select "Design Resources" ".\ic.olb" "IR2153"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 458"))
-      (Tab 0))))
+        (Placement "44 2 3 -1 -1 -4 -29 0 200 0 458"))
+      (Tab 0)))
+  (MPSSessionName "Shcheblykin"))

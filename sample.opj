@@ -1,7 +1,11 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\ic.olb"
+        (Type "Schematic Library"))
+      (File ".\power.olb"
+        (Type "Schematic Library")))
     (File ".\sample.olb"
       (Type "Schematic Library"))
     (BuildFileAddedOrDeleted "x")
@@ -14,12 +18,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\sample.olb")
-      (Select "Design Resources" ".\sample.olb" "DIODE"))
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\power.olb")
+      (Select "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\power.olb" "SIP7_SINGLE_4_6"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 3"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
       (Tab 0)))
   (MPSSessionName "Shcheblykin"))

@@ -5,6 +5,8 @@
       (File ".\ic.olb"
         (Type "Schematic Library"))
       (File ".\power.olb"
+        (Type "Schematic Library"))
+      (File "D:\!!!Sort\1\5M570ZT100C5N.OLB"
         (Type "Schematic Library")))
     (File ".\sample.olb"
       (Type "Schematic Library"))
@@ -18,9 +20,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" "d:\project\circuit\orcad\lib\sample.olb"))
+      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
+      (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
+      (Select "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\ic.olb" "5M570ZT100C5N"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -30,7 +34,18 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 54 1422 56 510")
+        (Placement "44 2 3 -1 -1 -4 -29 189 1588 196 652")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 0")
+        (Zoom "95"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
+      (Package "5M570ZT100C5N"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 54 1422 56 510")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
@@ -38,4 +53,5 @@
         (Zoom "240"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
       (Package "IEEE_C37_94_CORE")))
-  (MPSSessionName "Shcheblykin"))
+  (MPSSessionName "Shcheblykin")
+  (PartMRUSelector))

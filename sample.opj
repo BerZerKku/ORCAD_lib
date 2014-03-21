@@ -18,15 +18,24 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\power.olb")
-      (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\power.olb" "SIP7_SINGLE_4_6"))
+      (Select "Design Resources" "d:\project\circuit\orcad\lib\sample.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -29 54 1422 56 510")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "773 665")
+        (Zoom "240"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (Package "IEEE_C37_94_CORE")))
   (MPSSessionName "Shcheblykin"))

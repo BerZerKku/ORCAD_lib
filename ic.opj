@@ -6,7 +6,9 @@
       (Type "Schematic Library"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (NoModify))
+    (NoModify)
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (GlobalState
@@ -18,6 +20,6 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 0 200 0 458"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
       (Tab 0)))
   (MPSSessionName "Shcheblykin"))

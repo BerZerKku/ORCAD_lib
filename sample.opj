@@ -20,17 +20,29 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\project\circuit\orcad\lib\power.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
-      (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\power.olb" "LMZ14203"))
+      (Select "Design Resources" "d:\project\circuit\orcad\lib\sample.olb"
+         "COMMON_CHOKE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 396 0 880"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 135 1247 140 594")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2096 955")
+        (Zoom "418"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (Package "COMMON_CHOKE_2")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector))

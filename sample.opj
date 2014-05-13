@@ -20,18 +20,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\Project\Circuit\OrCAD\lib\sample.olb")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "D:\Project\Circuit\OrCAD\lib\power.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
-      (Select "Design Resources" "D:\Project\Circuit\OrCAD\lib\sample.olb"
-         "STM32L_DISCOVERY"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 0 0 0"))
       (Tab 0)))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector))

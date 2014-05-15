@@ -21,13 +21,14 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
-      (Select "Design Resources"))
+      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
+      (Select "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\ic.olb" "FT4232HL"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 0 0 0"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
       (Tab 0)))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector))

@@ -23,7 +23,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\ic.olb" "FT4232HL"))
+         "d:\project\circuit\orcad\lib\ic.olb" "AT93C46D"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

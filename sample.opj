@@ -20,11 +20,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
-      (Select "Design Resources" "d:\project\circuit\orcad\lib\sample.olb"
-         "HX5084NL"))
+      (Select "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\ic.olb" "ML8088S"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -34,13 +34,24 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 135 1503 140 594")
+        (Placement "44 2 3 -1 -1 -4 -29 135 1507 140 598")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "2884 850")
-        (Zoom "538"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (Package "HX5084NL")))
+        (Scroll "1171 545")
+        (Zoom "244"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
+      (Package "ML8088S"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 216 1588 224 682")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1288 313")
+        (Zoom "292"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
+      (Package "SN74AVC4T774PW")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector))

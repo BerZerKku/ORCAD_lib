@@ -1,0 +1,53 @@
+﻿	Микросхемы				корпус				Package					Symbol
+СИМВОЛ	SN74AVC4T774PW	SOT-23-5			-> (TSOP_16)			-> IC\SN74AVC4T774PW	
+СИМВОЛ	MIC2026-1BM 	SO-8 	 -> -1YT	-> (SOIC_8)				-> IC\MIC2026-1
+СИМВОЛ	USB2517i-JZX	QFN-64				-> (QFN_64)				-> IC\USB2517
+СИМВОЛ	LAN9500i-ABZJ	QFN-56				-> (QFN_56)				-> IC\LAN9500
+СИМВОЛ	LAN7500i-ABZJ	QFN-56	 -> НЕ ИСПОЛЬЗУЮТ	-> (QFN_56)		-> IC\LAN7500
+СИМВОЛ	LM1085IS-3.3	TO-263				-> (TO-263)				-> IC\LM317EMP
+СИМВОЛ	LM1117IDTX-1.8	TO-252AA -> DT		-> (TO-252)				-> IC\LM317EMP
+СИМВОЛ	LM1117IDTX-3.3	TO-252AA -> IDT		-> (TO-252)				-> IC\LM317EMP	
+CИМВОЛ 	FAN1112S 		TO-252	 -> НЕ ИСПОЛЬЗУЮТ	-> (TO-252)		-> IC\LM317EMP	
+СИМВОЛ	FT4232HL		LQFP64				-> (LQFP-64)			-> IC\FT4232HL
+OK		SN74LVC1G08DBVR						-> (SOT-23_5)			-> IC\SN74LVC1G08
+OK		ML8088S								-> IC_ML8088S			-> IC\ML8088S
+		
+	Конденсаторы	
+СИМВОЛ	Чип  0603 0.01uf 50 V				-> (CAPC1608X90N)		-> CAP_NP
+СИМВОЛ	Чип  0603 0.1uf 25 V				-> (CAPC1608X90N)		-> CAP_NP
+CИМВОЛ	Чип  0603 27пФ 50V					-> (CAPC1608X90N)		-> CAP_NP
+СИМВОЛ	Чип  1812 1000пФ 3kV X7R			-> (1812)				-> CAP_NP 
+		
+	Разъемы	
+OK		1473005-1 TYCO	(для Blueshark v3)	-> TYCO_1473005-1		-> SAMPLE\CON_1473005_1	
+OK		406549-4 TYCO	розетка RJ-45		-> TYCO_406549			-> SAMPLE\CON_406549
+OK		IPXSM66AL -> 73412-0110				-> MOLEX_73412_0110		-> SAMPLE\CON_73412_0110
+		
+		
+СИМВОЛ	Рез.подстр RK09K111-K25-C0-A103 - НЕ ИСПОЛЬЗУЮТ -> (3 + 2 pins)-> RES_P - есть	
+СИМВОЛ	Кнопка SWT-42-12.5					-> (4 pins)				-> SAMPLE\BUTTON_1
+СИМВОЛ	Кнопка DTSM20-4.3K					-> (SMD_4)				-> SAMPLE\BUTTON_1
+		
+	Кварцы
+ОК		HC49 12Mhz							
+ОК		HC49 24Mhz
+ОК		HC49 25Mhz
+		
+	Трансформаторы	
+СИМВОЛ	H1102NL	-> НЕ ИСПОЛЬЗУЮТ			-> (SMD_16)				-> SAMPLE\H1102NL		
+СИМВОЛ	HX5084NL							-> (SMD_24)				-> SAMPLE\HX5084NL	
+
+	Память
+СИМВОЛ	AT24C01C-PU	-> M24C02-WBN6P			-> (DIP-8)				-> IC\24C01 	
+СИМВОЛ	AT9346D-PU 	 						-> (DIP-8)				-> IC\AT93C46D
+
+	Оптроны
+ОК	HCPL-0601								-> SOIC254P965X370-8	-> SAMPLE\OPTO_HCPL_0601
+
+	Диоды
+СИМВОЛ	Cветодиод L-1154GT -> L-934GT 		-> (3мм)					-> DIODE_LED
+СИМВОЛ	Светодиод L-1154IT -> L-934IT		-> (3мм)					-> DIODE_LED
+OK		Сборка SLVU2.8-8A1	SO-8			-> SOIC127P600X175-8N	-> SAMPLE\TVS_ARRAY_SLVU28_8
+	
+	Индуктивности
+СИМВОЛ	BLM18HG471SN1						-> (0603)				-> SAMPLE\FERRITE

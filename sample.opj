@@ -24,7 +24,7 @@
       (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
       (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\ic.olb" "SN74AVC4T774PW"))
+         "d:\project\circuit\orcad\lib\ic.olb" "LAN9500"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -34,13 +34,24 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 135 1507 140 598")
+        (Placement "44 0 1 -1 -1 -4 -29 135 1507 140 598")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
         (Scroll "1171 545")
         (Zoom "244"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ML8088S")))
+      (Package "ML8088S"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -29 81 1453 84 542")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "195 300")
+        (Zoom "156"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
+      (Package "LAN9500")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector))

@@ -1,5 +1,5 @@
 ﻿	Микросхемы				корпус				Package					Symbol
-СИМВОЛ	SN74AVC4T774PW	SOT-23-5			-> (TSOP_16)			-> IC\SN74AVC4T774PW	
+OK		SN74AVC4T774PW	SOT-23-5			-> SOP65P640x120-16n	-> IC\SN74AVC4T774PW	
 СИМВОЛ	MIC2026-1BM 	SO-8 	 -> -1YT	-> (SOIC_8)				-> IC\MIC2026-1
 СИМВОЛ	USB2517i-JZX	QFN-64				-> (QFN_64)				-> IC\USB2517
 СИМВОЛ	LAN9500i-ABZJ	QFN-56				-> (QFN_56)				-> IC\LAN9500
@@ -13,9 +13,9 @@ OK		SN74LVC1G08DBVR						-> (SOT-23_5)			-> IC\SN74LVC1G08
 OK		ML8088S								-> IC_ML8088S			-> IC\ML8088S
 		
 	Конденсаторы	
-СИМВОЛ	Чип  0603 0.01uf 50 V				-> (CAPC1608X90N)		-> CAP_NP
-СИМВОЛ	Чип  0603 0.1uf 25 V				-> (CAPC1608X90N)		-> CAP_NP
-CИМВОЛ	Чип  0603 27пФ 50V					-> (CAPC1608X90N)		-> CAP_NP
+OK		Чип  0603 0.01uf 50 V				-> CAPC1608X90N			-> CAP_NP
+OK		Чип  0603 0.1uf 25 V				-> CAPC1608X90N			-> CAP_NP
+OK		Чип  0603 27пФ 50V					-> CAPC1608X90N			-> CAP_NP
 СИМВОЛ	Чип  1812 1000пФ 3kV X7R			-> (1812)				-> CAP_NP 
 		
 	Разъемы	

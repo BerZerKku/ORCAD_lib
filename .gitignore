@@ -1,7 +1,12 @@
-
 /wizard/arch
 /tmp
 *.jrl*
 *.log*
 *.OBK*
 *.DBC*
+*.*1*
+AUTOSAVE*.*
+*.tag
+*.cfg
+*.dmp
+*.lck

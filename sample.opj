@@ -20,16 +20,18 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\power.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
       (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\ic.olb" "LAN9500"))
+         "d:\project\circuit\orcad\lib\power.olb" "LM317EMP_3"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 360 0 901"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
@@ -45,7 +47,7 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 81 1453 84 542")
+        (Placement "44 2 3 -1 -1 -4 -24 81 1453 84 542")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")

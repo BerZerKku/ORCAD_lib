@@ -22,38 +22,25 @@
       (Path "Design Resources")
       (Path "Design Resources" "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\power.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
-      (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\power.olb" "LM317EMP_3"))
+      (Select "Design Resources" "d:\project\circuit\orcad\lib\sample.olb"
+         "BUTTON_3ESH9"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 360 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 135 1507 140 598")
+        (Placement "44 2 3 -1 -1 -4 -24 88 1485 92 565")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "1171 545")
-        (Zoom "244"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ML8088S"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 81 1453 84 542")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "195 300")
-        (Zoom "156"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "LAN9500")))
+        (Scroll "6220 2800")
+        (Zoom "912"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (Package "BUTTON_3ESH9")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector))

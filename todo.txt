@@ -16,7 +16,7 @@ OK		ML8088S								-> IC_ML8088S						-> IC\ML8088S
 OK		Чип  0603 0.01uf 50 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 0.1uf 25 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 27пФ 50V					-> CAPC1608X90N						-> CAP_NP
-СИМВОЛ	Чип  1812 1000пФ 3kV X7R			-> (1812)							-> CAP_NP 
+OK		Чип  1812 1000пФ 3kV X7R			-> capc4532x180n					-> CAP_NP 
 		
 	Разъемы	
 OK		1473005-1 TYCO	(для Blueshark v3)	-> TYCO_1473005-1					-> SAMPLE\CON_1473005_1	
@@ -24,9 +24,9 @@ OK		406549-4 TYCO	розетка RJ-45		-> TYCO_406549						-> SAMPLE\CON_406549
 OK		IPXSM66AL -> 73412-0110				-> MOLEX_73412_0110					-> SAMPLE\CON_73412_0110
 		
 		
-СИМВОЛ	Рез.подстр RK09K111-K25-C0-A103 - NotUse -> (3 + 2 pins)				-> RES_P - есть	
-СИМВОЛ	Кнопка SWT-42-12.5					-> (4 pins)							-> SAMPLE\BUTTON_1
-СИМВОЛ	Кнопка DTSM20-4.3K					-> (SMD_4)							-> SAMPLE\BUTTON_1
+OK		Рез.под.RK09K111-K25-C0-A103-NotUse	-> TRIM_RK09K111_K25				-> RES_P
+OK 		Кнопка SWT-42-12.5					-> SW_42_12p5						-> SAMPLE\BUTTON_1
+OK		Кнопка DTSM20-4.3K					-> SW_DTSM20_4K3					-> SAMPLE\BUTTON_3ESH9
 		
 	Кварцы
 ОК		HC49 12Mhz							
@@ -42,7 +42,7 @@ OK		AT24C01C-PU	-> M24C02-WBN6P			-> dip762w46p254l988h533q8b			-> IC\24C01
 OK		AT9346D-PU 	 						-> dip762w46p254l988h533q8b			-> IC\AT93C46D
 
 	Оптроны
-ОК	HCPL-0601								-> SOIC254P965X370-8				-> SAMPLE\OPTO_HCPL_0601
+ОК		HCPL-0601							-> SOIC254P965X370-8				-> SAMPLE\OPTO_HCPL_0601
 
 	Диоды
 OK		Cветодиод L-1154GT -> L-934GT 		-> ledrd254w60d300h900usr			-> DIODE_LED
@@ -50,4 +50,4 @@ OK		Светодиод L-1154IT -> L-934IT		-> ledrd254w60d300h900usr			-> DIODE
 OK		Сборка SLVU2.8-8A1	SO-8			-> SOIC127P600X175-8N				-> SAMPLE\TVS_ARRAY_SLVU28_8
 	
 	Индуктивности
-OK		BLM18HG471SN1						-> FB1608X95N					-> SAMPLE\FERRITE
+OK		BLM18HG471SN1						-> FB1608X95N						-> SAMPLE\FERRITE

@@ -24,7 +24,7 @@
       (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
       (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\ic.olb" "ADM3251_RW20"))
+         "d:\project\circuit\orcad\lib\ic.olb" "MIC2026-1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -111,7 +111,7 @@
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 88 1485 92 565")
+        (Placement "44 0 1 -1 -1 -4 -24 88 1485 92 565")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
@@ -119,6 +119,17 @@
         (Zoom "252"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
       (Package "ADM3202_R16"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -24 0 1397 0 473")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2107 894")
+        (Zoom "336"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
+      (Package "MIC2026-1"))
     (Doc
       (Type "COrPartDoc")
       (Frame

@@ -7,13 +7,17 @@
       (File ".\power.olb"
         (Type "Schematic Library"))
       (File "D:\!!!Sort\1\5M570ZT100C5N.OLB"
+        (Type "Schematic Library"))
+      (File ".\transistor.olb"
+        (Type "Schematic Library"))
+      (File ".\opamp.olb"
         (Type "Schematic Library")))
     (File ".\sample.olb"
       (Type "Schematic Library"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (NoModify)
-    (DOCKED "TRUE")
+    (DOCKED "FALSE")
     (DOCKING_POSITION "59420"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -21,125 +25,26 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
-      (Path "Design Resources" "Library" "D:\!!!Sort\1\5M570ZT100C5N.OLB")
-      (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\ic.olb" "MIC2026-1"))
+      (Path "Design Resources" "Library" ".\ic.olb")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\opamp.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+        (Placement "44 2 3 -1 -1 -4 -24 198 1339 207 704"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 542")
-        (PackageScroll "0 0")
+        (Placement "44 0 1 -1 -1 -4 -24 154 1295 161 658")
+        (PackageScroll "0 210")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "683 211")
-        (Zoom "201"))
+        (Scroll "3351 1342")
+        (Zoom "710"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ADM2582E_RW20"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 110 1507 115 588")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "920 275")
-        (Zoom "237"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ADuM3402"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 132 1529 138 611")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1024 316")
-        (Zoom "251"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ADuM4160_RW16"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 154 1551 161 634")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2361 708")
-        (Zoom "448"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "AT93C46D"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 176 1573 184 657")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "289 89")
-        (Zoom "143"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ATMEGA164_TQFP"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 198 1595 207 680")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "403 115")
-        (Zoom "160"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ATMEGA8_TQFP"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 220 1617 230 703")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "3125 974")
-        (Zoom "560"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "AD8532"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 88 1485 92 565")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1189 415")
-        (Zoom "252"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ADM3202_R16"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 0 1397 0 473")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2107 894")
-        (Zoom "336"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "MIC2026-1"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 88 1485 92 565")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "6220 2800")
-        (Zoom "912"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (Package "BUTTON_3ESH9")))
+      (Package "ADG511")))
   (MPSSessionName "Shcheblykin")
-  (PartMRUSelector))
+  (PartMRUSelector)
+  (ISPCBBASICLICENSE "false"))

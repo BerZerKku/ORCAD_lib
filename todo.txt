@@ -1,5 +1,5 @@
 ﻿	Микросхемы				корпус				Package								Symbol
-		ADG511BRZ		SOIC-16				-> (NO)								-> (IC\ADG511)
+		ADG511BRZ		SOIC-16				-> SOIC127P600X175-16N				-> IC\ADG511
 OK		SN74AVC4T774PW	SOT-23-5			-> SOP65P640x120-16n				-> IC\SN74AVC4T774PW	
 OK		MIC2026-1BM 	SO-8 	 -> -1YT	-> soic127p600x175-8n				-> IC\MIC2026-1
 OK		USB2517i-JZX	QFN-64				-> QFN50P900X900X100-65T470X470N	-> IC\USB2517
@@ -15,13 +15,13 @@ OK		ML8088S								-> IC_ML8088S						-> IC\ML8088S
 OK		ADM3202ARNZ		SOIC_N-16			-> SOIC127P600X175-16N				-> IC\ADM3202_R16
 
 	Питание
-		TEN 8-4821							-> (TRACO_TEN8_D)					-> (POWER\TEN8_4821)
+		TEN 8-4821							-> (TRACO_TEN8_D)					-> POWER\TEN8_D
 
 	Операционники
-		AD9631ANZ		DIP-8				-> (DIP-8 / кроватка)				-> (OPAMP\AD9631ANZ)
+		AD9631ANZ		DIP-8				-> (DIP-8 / кроватка)				-> OPAMP\AD9631ANZ
 		
 	Конденсаторы	
-		Подстроечный КТ4-23 7/30пФ			-> (CAP_KT4_23)						-> (CAP_TRIM)
+		Подстроечный КТ4-23 7/30пФ			-> (CAP_KT4_23)						-> CAP_TRIM
 OK		Чип  0603 0.01uf 50 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 0.1uf 25 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 27пФ 50V					-> CAPC1608X90N						-> CAP_NP
@@ -29,9 +29,9 @@ OK		Чип  1812 1000пФ 3kV X7R			-> capc4532x180n					-> CAP_NP
 		
 	Разъемы	
 		PBD-10								-> (NO)								-> SAMPLE\CON_10
-		PBD-20								-> (NO)								-> (SAMPLE\CON_20)
-		231-534/001-000						-> (WAGO_231_534_001_000)			-> (SAMPLE\CON_4) 
-		H3161-01							-> (NO)								-> (SAMPLE\CON_1)
+		PBD-20								-> (NO)								-> SAMPLE\CON_20
+		231-534/001-000						-> (WAGO_231_534_001_000)			-> SAMPLE\CON_4
+		H3161-01							-> (NO)								-> SAMPLE\CON_1
 OK		1473005-1 TYCO	(для Blueshark v3)	-> TYCO_1473005-1					-> SAMPLE\CON_1473005_1	
 OK		406549-4 TYCO	розетка RJ-45		-> TYCO_406549						-> SAMPLE\CON_406549
 OK		IPXSM66AL -> 73412-0110				-> MOLEX_73412_0110					-> SAMPLE\CON_73412_0110
@@ -69,6 +69,6 @@ OK		Сборка SLVU2.8-8A1	SO-8			-> SOIC127P600X175-8N				-> SAMPLE\TVS_ARRAY
 OK		BLM18HG471SN1						-> FB1608X95N						-> SAMPLE\FERRITE
 
 	Транзисторы
-		КТ646А TO126						-> (NO)								-> (TRANSISTOR\NPN_TO126)
+		КТ646А TO126						-> (NO)								-> TRANSISTOR\NPN_TO126
 OK		BC337-40 TO-92						-> TO254P460X520-3P					-> TRANSISTOR\NPN_TO92		
 OK		BC556B TO-92						-> TO254P460X520-3P					-> TRANSISTOR\PNP_TO92	

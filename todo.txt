@@ -21,6 +21,7 @@ OK		ADM3202ARNZ		SOIC_N-16			-> SOIC127P600X175-16N				-> IC\ADM3202_R16
 		AD9631ANZ		DIP-8				-> (DIP-8 / кроватка)				-> OPAMP\AD9631ANZ
 		
 	Конденсаторы	
+		Выводной TS170R1H103J8BNB0R			-> (NO)								-> CAP_NP
 		Подстроечный КТ4-23 7/30пФ			-> (CAP_KT4_23)						-> CAP_TRIM
 OK		Чип  0603 0.01uf 50 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 0.1uf 25 V				-> CAPC1608X90N						-> CAP_NP
@@ -66,6 +67,7 @@ OK		Светодиод L-1154IT -> L-934IT		-> ledrd254w60d300h900usr			-> DIODE
 OK		Сборка SLVU2.8-8A1	SO-8			-> SOIC127P600X175-8N				-> SAMPLE\TVS_ARRAY_SLVU28_8
 	
 	Индуктивности
+		CW68-103K							-> (NO)								-> SAMPLE\INDUCTOR
 OK		BLM18HG471SN1						-> FB1608X95N						-> SAMPLE\FERRITE
 
 	Транзисторы

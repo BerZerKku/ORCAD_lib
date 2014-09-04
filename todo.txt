@@ -51,7 +51,7 @@ OK		Кнопка DTSM20-4.3K					-> SW_DTSM20_4K3					-> SAMPLE\BUTTON_3ESH9
 ОК		HC49 25Mhz
 		
 	Трансформаторы	
-		TR_45_28							-> (XFMR_TR_25_48)					-> (TR_25_48)
+		TR_45_28							-> XFMR_TR_25_48					-> TR_25_48
 OK		H1102NL	-> НЕ ИСПОЛЬЗУЮТ			-> SOIC127P925X597-16N				-> SAMPLE\H1102NL		
 OK		HX5084NL							-> SOP99P1016X414-24N				-> SAMPLE\HX5084NL	
 

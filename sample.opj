@@ -24,27 +24,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\ic.olb")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\opamp.olb"))
+      (Path "Design Resources" ".\sample.olb")
+      (Select "Design Resources" ".\sample.olb" "TR_25_48"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 198 1339 207 704"))
-      (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 154 1295 161 658")
-        (PackageScroll "0 210")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "3351 1342")
-        (Zoom "710"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "ADG511")))
+        (Placement "44 0 1 -1 -1 -4 -24 198 1339 207 704"))
+      (Tab 0)))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector)
   (ISPCBBASICLICENSE "false"))

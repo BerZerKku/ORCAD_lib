@@ -21,6 +21,7 @@ OK		ADM3202ARNZ		SOIC_N-16			-> SOIC127P600X175-16N				-> IC\ADM3202_R16
 		AD9631ANZ		DIP-8				-> (DIP-8 / кроватка)				-> OPAMP\AD9631ANZ
 		
 	Конденсаторы	
+		Чип тантал 35В 47мкФ X				-> CAPMP7343X450N					-> CAP_P
 		Выводной TS170R1H103J8BNB0R			-> CAPRR350W50L500T350H800P			-> CAP_NP
 		Подстроечный КТ4-23 7/30пФ			-> (CAP_KT4_23)						-> CAP_TRIM
 OK		Чип  0603 0.01uf 50 V				-> CAPC1608X90N						-> CAP_NP
@@ -50,7 +51,7 @@ OK		Кнопка DTSM20-4.3K					-> SW_DTSM20_4K3					-> SAMPLE\BUTTON_3ESH9
 ОК		HC49 25Mhz
 		
 	Трансформаторы	
-		TR_45_28							-> (TR_25_48)						-> XFMR_TR_25_48
+		TR_45_28							-> (XFMR_TR_25_48)					-> (TR_25_48)
 OK		H1102NL	-> НЕ ИСПОЛЬЗУЮТ			-> SOIC127P925X597-16N				-> SAMPLE\H1102NL		
 OK		HX5084NL							-> SOP99P1016X414-24N				-> SAMPLE\HX5084NL	
 

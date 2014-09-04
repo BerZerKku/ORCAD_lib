@@ -2,7 +2,7 @@
 <CadenceAllegroConstraintManager xmlns="">
 
   <allegroTechnologyFile>
-    <name>E:/ORCAD_sch/lib/my_tech_param.tcf</name>
+    <name>D:/Project/Circuit/OrCAD/lib/my_tech_param.tcf</name>
     <technologyHeader>
       <objectKey>
         <value>physical</value>
@@ -11,7 +11,6 @@
         <value>16.6</value>
       </version>
       <contents>
-        <value>units</value>
         <value>drawing</value>
         <value>opFlags</value>
         <value>dictionaryExtensions</value>
@@ -27,7 +26,6 @@
         <numberOfDecimalPlaces>3</numberOfDecimalPlaces>
       </precision>
     </technologyHeader>
-    <units/>
     <drawing>
       <attribute>
         <name>DRAWING_EXTENTS</name>
@@ -763,10 +761,14 @@
         <Objects>
           <ValidObjects>
             <value>oPin</value>
+            <value>oPinDefn</value>
             <value>oShape</value>
             <value>oVia</value>
             <value>oVoid</value>
             <value>oCLine</value>
+            <value>oDesign</value>
+            <value>oSymbolDefn</value>
+            <value>oSymbol</value>
           </ValidObjects>
         </Objects>
         <Analysis/>
@@ -822,7 +824,9 @@
           <ValidObjects>
             <value>oPart</value>
             <value>oGate</value>
+            <value>oGateDefn</value>
             <value>oPin</value>
+            <value>oPinDefn</value>
             <value>oNet</value>
             <value>oIODriver</value>
             <value>oShape</value>
@@ -833,6 +837,7 @@
             <value>oFigure</value>
             <value>oVoid</value>
             <value>oCLine</value>
+            <value>oDesign</value>
           </ValidObjects>
         </Objects>
         <Analysis/>
@@ -852,7 +857,9 @@
           <ValidObjects>
             <value>oPart</value>
             <value>oGate</value>
+            <value>oGateDefn</value>
             <value>oPin</value>
+            <value>oPinDefn</value>
             <value>oNet</value>
             <value>oIODriver</value>
             <value>oShape</value>
@@ -863,6 +870,7 @@
             <value>oFigure</value>
             <value>oVoid</value>
             <value>oCLine</value>
+            <value>oDesign</value>
           </ValidObjects>
         </Objects>
         <Analysis/>
@@ -893,7 +901,12 @@
         </attribute>
         <attribute>
           <name>CDS_LAYER_THICKNESS</name>
-          <value>0.000</value>
+          <value>0.0000</value>
+          <Units>
+            <type>uLayerThickness</type>
+            <name>mm</name>
+            <scaling>1.000000</scaling>
+          </Units>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -957,6 +970,11 @@
         <attribute>
           <name>CDS_LAYER_THICKNESS</name>
           <value>0.035</value>
+          <Units>
+            <type>uLayerThickness</type>
+            <name>mm</name>
+            <scaling>1.000000</scaling>
+          </Units>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -1029,7 +1047,12 @@
         </attribute>
         <attribute>
           <name>CDS_LAYER_THICKNESS</name>
-          <value>1.500</value>
+          <value>1.5</value>
+          <Units>
+            <type>uLayerThickness</type>
+            <name>mm</name>
+            <scaling>1.000000</scaling>
+          </Units>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -1093,6 +1116,11 @@
         <attribute>
           <name>CDS_LAYER_THICKNESS</name>
           <value>0.035</value>
+          <Units>
+            <type>uLayerThickness</type>
+            <name>mm</name>
+            <scaling>1.000000</scaling>
+          </Units>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -1165,7 +1193,12 @@
         </attribute>
         <attribute>
           <name>CDS_LAYER_THICKNESS</name>
-          <value>0.000</value>
+          <value>0.0000</value>
+          <Units>
+            <type>uLayerThickness</type>
+            <name>mm</name>
+            <scaling>1.000000</scaling>
+          </Units>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -1203,7 +1236,7 @@
     <constraints>
       <value>allRules</value>
       <design>
-        <name>v3</name>
+        <name>smd_jumper_2</name>
         <physicalCSetRef>DEFAULT</physicalCSetRef>
         <spacingCSetRef>DEFAULT</spacingCSetRef>
         <sameNetSpacingCSetRef>DEFAULT</sameNetSpacingCSetRef>
@@ -1395,7 +1428,7 @@
         </attribute>
         <attribute>
           <name>SMDPIN_TO_SMDPIN_SPACING</name>
-          <value>0.220,0.220</value>
+          <value>0.200,0.200</value>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -1495,7 +1528,7 @@
         </attribute>
         <attribute>
           <name>SMDPIN_TO_TESTPIN_SPACING</name>
-          <value>0.220,0.220</value>
+          <value>0.200,0.200</value>
           <Origin>gBackEnd</Origin>
         </attribute>
         <attribute>
@@ -1990,23 +2023,23 @@
         <objectFlag>fObjectNOTReadOnly</objectFlag>
       </sameNetSpacingCSet>
       <region>
-        <name>RGN2</name>
+        <name>RGN1</name>
         <attribute>
-          <name>HOLE_TO_PIN_SPACING</name>
-          <value>4.000</value>
+          <name>SMDPIN_TO_SMDPIN_SPACING</name>
+          <value>0.200</value>
           <Origin>gBackEnd</Origin>
         </attribute>
+      </region>
+      <region>
+        <name>RGN2</name>
         <attribute>
           <name>THRUPIN_TO_SHAPE_SPACING</name>
           <value>4.000</value>
           <Origin>gBackEnd</Origin>
         </attribute>
-      </region>
-      <region>
-        <name>RGN1</name>
         <attribute>
-          <name>SMDPIN_TO_SMDPIN_SPACING</name>
-          <value>0.200</value>
+          <name>HOLE_TO_PIN_SPACING</name>
+          <value>4.000</value>
           <Origin>gBackEnd</Origin>
         </attribute>
       </region>

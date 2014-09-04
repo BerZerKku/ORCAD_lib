@@ -20,6 +20,17 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 154 1295 161 658")
+        (PackageScroll "0 210")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3351 1342")
+        (Zoom "710"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
+      (Package "ADG511")))
   (MPSSessionName "Shcheblykin"))

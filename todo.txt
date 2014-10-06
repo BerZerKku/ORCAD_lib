@@ -15,7 +15,7 @@ OK		ML8088S								-> IC_ML8088S						-> IC\ML8088S
 OK		ADM3202ARNZ		SOIC_N-16			-> SOIC127P600X175-16N				-> IC\ADM3202_R16
 
 	Питание
-		TEN 8-4821							-> (TRACO_TEN8_D)					-> POWER\TEN8_D
+		TEN 8-4821							-> TRACO_TEN8_D						-> POWER\TEN8_D
 
 	Операционники
 		AD9631ANZ		DIP-8				-> (DIP-8 / кроватка)				-> OPAMP\AD9631ANZ
@@ -29,6 +29,9 @@ OK		Чип  0603 0.1uf 25 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 27пФ 50V					-> CAPC1608X90N						-> CAP_NP
 OK		Чип  1812 1000пФ 3kV X7R			-> capc4532x180n					-> CAP_NP 
 		
+	Резисторы
+		Чип 0603 							-> RESC1608X55N						->RES_0.1W
+		
 	Разъемы	
 		PBD-10								-> (NO)								-> SAMPLE\CON_10
 		PBD-20								-> (NO)								-> SAMPLE\CON_20
@@ -38,8 +41,8 @@ OK		1473005-1 TYCO	(для Blueshark v3)	-> TYCO_1473005-1					-> SAMPLE\CON_147
 OK		406549-4 TYCO	розетка RJ-45		-> TYCO_406549						-> SAMPLE\CON_406549
 OK		IPXSM66AL -> 73412-0110				-> MOLEX_73412_0110					-> SAMPLE\CON_73412_0110
 		
-		Рез.подстр 3362H-1-101				-> (TRIM_3362H)						-> RES_P
-		Рез.подстр 3362H-1-102				-> (TRIM_3362H)						-> RES_P
+		Рез.подстр 3362H-1-101				-> TRIM_3362H						-> RES_P
+		Рез.подстр 3362H-1-102				-> TRIM_3362H						-> RES_P
 OK		Рез.под.RK09K111-K25-C0-A103-NotUse	-> TRIM_RK09K111_K25				-> RES_P
 OK 		Кнопка SWT-42-12.5					-> SW_42_12p5						-> SAMPLE\BUTTON_1
 OK		Кнопка DTSM20-4.3K					-> SW_DTSM20_4K3					-> SAMPLE\BUTTON_3ESH9

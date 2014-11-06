@@ -17,7 +17,7 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (NoModify)
-    (DOCKED "FALSE")
+    (DOCKED "TRUE")
     (DOCKING_POSITION "59420"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -25,13 +25,24 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\sample.olb")
-      (Select "Design Resources" ".\sample.olb" "TR_25_48"))
+      (Select "Design Resources" ".\sample.olb" "HCPL-0370"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 198 1339 207 704"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -24 88 1481 92 580")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2445 778")
+        (Zoom "463"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (Package "HCPL-0370")))
   (MPSSessionName "Shcheblykin")
   (PartMRUSelector)
   (ISPCBBASICLICENSE "false"))

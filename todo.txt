@@ -1,5 +1,5 @@
 ﻿	Микросхемы				корпус				Package								Symbol
-		ADG511BRZ		SOIC-16				-> SOIC127P600X175-16N				-> IC\ADG511
+OK		ADG511BRZ		SOIC-16				-> SOIC127P600X175-16N				-> IC\ADG511
 OK		SN74AVC4T774PW	SOT-23-5			-> SOP65P640x120-16n				-> IC\SN74AVC4T774PW	
 OK		MIC2026-1BM 	SO-8 	 -> -1YT	-> soic127p600x175-8n				-> IC\MIC2026-1
 OK		USB2517i-JZX	QFN-64				-> QFN50P900X900X100-65T470X470N	-> IC\USB2517
@@ -15,14 +15,14 @@ OK		ML8088S								-> IC_ML8088S						-> IC\ML8088S
 OK		ADM3202ARNZ		SOIC_N-16			-> SOIC127P600X175-16N				-> IC\ADM3202_R16
 
 	Питание
-		TEN 8-4821							-> TRACO_TEN8_D						-> POWER\TEN8_D
+OK		TEN 8-4821							-> TRACO_TEN8_D						-> POWER\TEN8_D
 
 	Операционники
 		AD9631ANZ		DIP-8				-> (DIP-8 / кроватка)				-> OPAMP\AD9631ANZ
 		
 	Конденсаторы	
-		Чип тантал 35В 47мкФ X				-> CAPMP7343X450N					-> CAP_P
-		Выводной TS170R1H103J8BNB0R			-> CAPRR350W50L500T350H800P			-> CAP_NP
+OK		Чип тантал 35В 47мкФ X				-> CAPMP7343X450N					-> CAP_P
+OK		Выводной TS170R1H103J8BNB0R			-> CAPRR350W50L500T350H800P			-> CAP_NP
 		Подстроечный КТ4-23 7/30пФ			-> (CAP_KT4_23)						-> CAP_TRIM
 OK		Чип  0603 0.01uf 50 V				-> CAPC1608X90N						-> CAP_NP
 OK		Чип  0603 0.1uf 25 V				-> CAPC1608X90N						-> CAP_NP
@@ -30,7 +30,7 @@ OK		Чип  0603 27пФ 50V					-> CAPC1608X90N						-> CAP_NP
 OK		Чип  1812 1000пФ 3kV X7R			-> capc4532x180n					-> CAP_NP 
 		
 	Резисторы
-		Чип 0603 							-> RESC1608X55N						->RES_0.1W
+OK		Чип 0603 							-> RESC1608X55N						->RES_0.1W
 		
 	Разъемы	
 		PBD-10								-> (NO)								-> SAMPLE\CON_10
@@ -41,8 +41,8 @@ OK		1473005-1 TYCO	(для Blueshark v3)	-> TYCO_1473005-1					-> SAMPLE\CON_147
 OK		406549-4 TYCO	розетка RJ-45		-> TYCO_406549						-> SAMPLE\CON_406549
 OK		IPXSM66AL -> 73412-0110				-> MOLEX_73412_0110					-> SAMPLE\CON_73412_0110
 		
-		Рез.подстр 3362H-1-101				-> TRIM_3362H						-> RES_P
-		Рез.подстр 3362H-1-102				-> TRIM_3362H						-> RES_P
+OK		Рез.подстр 3362H-1-101				-> TRIM_3362H						-> RES_P
+OK		Рез.подстр 3362H-1-102				-> TRIM_3362H						-> RES_P
 OK		Рез.под.RK09K111-K25-C0-A103-NotUse	-> TRIM_RK09K111_K25				-> RES_P
 OK 		Кнопка SWT-42-12.5					-> SW_42_12p5						-> SAMPLE\BUTTON_1
 OK		Кнопка DTSM20-4.3K					-> SW_DTSM20_4K3					-> SAMPLE\BUTTON_3ESH9
@@ -54,7 +54,7 @@ OK		Кнопка DTSM20-4.3K					-> SW_DTSM20_4K3					-> SAMPLE\BUTTON_3ESH9
 ОК		HC49 25Mhz
 		
 	Трансформаторы	
-		TR_45_28							-> XFMR_TR_25_48					-> TR_25_48
+OK		TR_45_28							-> XFMR_TR_25_48					-> TR_25_48
 OK		H1102NL	-> НЕ ИСПОЛЬЗУЮТ			-> SOIC127P925X597-16N				-> SAMPLE\H1102NL		
 OK		HX5084NL							-> SOP99P1016X414-24N				-> SAMPLE\HX5084NL	
 
@@ -64,17 +64,18 @@ OK		AT9346D-PU 	 						-> dip762w46p254l988h533q8b			-> IC\AT93C46D
 
 	Оптроны
 ОК		HCPL-0601							-> SOIC254P1000X370-8				-> SAMPLE\OPTO_HCPL_0601
+OK		ACPL-K376-000E						-> soic127p1150x320-8n				-> SAMPLE\HCPL-0370
 
-	Диоды
+	Полупроводники
 OK		Cветодиод L-1154GT -> L-934GT 		-> ledrd254w60d300h900usr			-> DIODE_LED
 OK		Светодиод L-1154IT -> L-934IT		-> ledrd254w60d300h900usr			-> DIODE_LED
 OK		Сборка SLVU2.8-8A1	SO-8			-> SOIC127P600X175-8N				-> SAMPLE\TVS_ARRAY_SLVU28_8
-	
-	Индуктивности
-		CW68-103K							-> INDRD300W60D750H1300P			-> SAMPLE\INDUCTOR
-OK		BLM18HG471SN1						-> FB1608X95N						-> SAMPLE\FERRITE
-
-	Транзисторы
 		КТ646А TO126						-> (NO)								-> TRANSISTOR\NPN_TO126
 OK		BC337-40 TO-92						-> TO254P460X520-3P					-> TRANSISTOR\NPN_TO92		
-OK		BC556B TO-92						-> TO254P460X520-3P					-> TRANSISTOR\PNP_TO92	
+OK		BC556B TO-92						-> TO254P460X520-3P					-> TRANSISTOR\PNP_TO92
+OK		MCR08MT1							-> sot230p700x175-4n				-> SAMPLE\THYRISTOR_CAGA
+OK		BT148W-600R							-> sot230p700x175-4n				-> SAMPLE\THYRISTOR_CAGA		
+	
+	Индуктивности
+OK		CW68-103K							-> INDRD300W60D750H1300P			-> SAMPLE\INDUCTOR
+OK		BLM18HG471SN1						-> FB1608X95N						-> SAMPLE\FERRITE	

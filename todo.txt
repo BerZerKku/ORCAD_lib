@@ -31,6 +31,7 @@ OK		Чип  1812 1000пФ 3kV X7R			-> capc4532x180n					-> CAP_NP
 		
 	Резисторы
 OK		Чип 0603 							-> RESC1608X55N						->RES_0.1W
+OK		LP60-020F							-> FUSRB510W60L590T310H1120P		->SAMPLE\FUSE_LEAD
 		
 	Разъемы	
 		PBD-10								-> (NO)								-> SAMPLE\CON_10

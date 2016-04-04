@@ -1,0 +1,14 @@
+# Script filename: set_width.scr
+# 
+# This script provides the ability to change line width settings.
+# Requires variable line_width to be set for desired line width.
+# 
+# The scriptmode command keeps the form invisible
+#
+# @param[in] line_width Value of desired line width. 
+#
+
+echo "*** SET GLINE WIDTH >>>" $line_width "***"
+scriptmode +i +n 
+
+FORM mini acon_line_width $line_width

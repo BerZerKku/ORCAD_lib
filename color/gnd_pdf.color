@@ -1,0 +1,11 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/NCROUTE_PATH"
+color -vis "BOARD GEOMETRY/SOLDERMASK_BOTTOM"
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "ETCH/GND"
+color -vis "PIN/GND"
+color -vis "PIN/PWR"
+color -vis "VIA CLASS/GND"

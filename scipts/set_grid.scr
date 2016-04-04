@@ -1,0 +1,23 @@
+# Script filename: set_grid.scr
+# 
+# This script provides the ability to change grid settings of etch and non-etch
+# layers. Requires variable grid_val to be set for desired grid.
+# 
+# The scriptmode command keeps the form invisible
+#
+# @param[in] grid_val Value of desired grid. 
+#
+
+echo "*** SET GRID >>>" $grid_val "***"
+scriptmode +i +n 
+
+define grid 
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids $grid_val
+FORM grid non_etch non_etch_y_grids $grid_val
+FORM grid all_etch all_etch_x_grids $grid_val
+FORM grid all_etch all_etch_y_grids $grid_val
+FORM grid done
+setwindow pcb 
+
+redraw

@@ -1,0 +1,14 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/NCROUTE_PATH"
+color -vis "BOARD GEOMETRY/SILKSCREEN_TOP"
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "COMPONENT VALUE/SILKSCREEN_TOP"
+color -vis "ETCH/TOP"
+color -vis "MANUFACTURING/SHAPE PROBLEMS"
+color -vis "PACKAGE GEOMETRY/SILKSCREEN_TOP"
+color -vis "PIN/TOP"
+color -vis "REF DES/SILKSCREEN_TOP"
+color -vis "VIA CLASS/TOP"
